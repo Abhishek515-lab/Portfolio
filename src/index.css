@@ -16,9 +16,14 @@
     background-size: 250px;
     background-repeat: no-repeat;
     background-position: 17px;
-    box-shadow: 0px 0px 1px rgb(109, 109, 109);
+    box-shadow: 0px 1px 1px rgb(229, 231, 229);
+    
 }
 
 .shadow-lg:hover{
-    box-shadow: 1px 1px 9px blue;
+    box-shadow: 1px 1px 4px blue;
 }
+/* 
+.hero{
+    background-image: url('./assets/herobg.png');
+} */

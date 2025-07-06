@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -115,7 +116,7 @@ const About = () => {
       >
         <h2 className="text-2xl font-semibold text-blue-600 mb-4">Let's Connect</h2>
         <p className="text-lg text-gray-800 mb-4">
-          Feel free to <a href="mailto:your-email@example.com" className="text-blue-500 hover:text-blue-700 transition-all">contact me</a> 
+          Feel free to <Link to='/Contact' className="text-blue-500 hover:text-blue-700 transition-all">contact me</Link> 
           or connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile" 
           className="text-blue-500 hover:text-blue-700 transition-all" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
         </p>

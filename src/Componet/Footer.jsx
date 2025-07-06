@@ -16,7 +16,7 @@ const Footer = () => {
           GitHub
         </Link>
         <Link 
-          to="https://www.linkedin.com/in/your-profile" 
+          to="https://www.linkedin.com/in/abhishek-gupta-373029287/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-white hover:text-gray-400 transition-colors"

@@ -16,20 +16,12 @@ const Project = () => {
           {/* Skill 2 */}
           <div className="p-6 bg-white shadow-lg rounded-lg text-center">
             
-            <p className="text-gray-600">E-comarse Website</p>
+            <p className="text-gray-600">blog Website</p>
           </div>
           
-          {/* Skill 3 */}
-          <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-           
-            <p className="text-gray-600">Currency Converter</p>
-          </div>
+
           
-          {/* Skill 4 */}
-          <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-            
-            <p className="text-gray-600">Calculater App</p>
-          </div>
+
 
           {/* Skill 5 */}
           <div className="p-6 bg-white shadow-lg rounded-lg text-center">
@@ -37,11 +29,7 @@ const Project = () => {
             <p className="text-gray-600">To-do App</p>
           </div>
           
-          {/* Skill 6 */}
-          <div className="p-6 bg-white shadow-lg rounded-lg text-center">
-           
-            <p className="text-gray-600">Chat app</p>
-          </div>
+      
         </div>
       </section>
       </div>

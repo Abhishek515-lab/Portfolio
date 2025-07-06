@@ -5,7 +5,7 @@ import js from "../assets/js.svg"
 import react from "../assets/react-256.webp"
 import node from "../assets/nodejs-light-256.webp"
 import tail from "../assets/Tailwind-CSS.svg"
-import css from "../assets/css3.png"
+import css from "../assets/CSS3.png"
 import { TypeAnimation } from 'react-type-animation'
 
 

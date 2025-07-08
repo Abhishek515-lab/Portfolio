@@ -8,20 +8,26 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const service = import.meta.env.VITE_SERVICE_ID;
+    const template = import.meta.env.VITE_TEMPLATE_ID;
+    const Public = import.meta.env.VITE_PUBLIC_KEY;
+if (!service || !template || !Public) {
+      alert("EmailJS environment variables are missing!");
+      return;
+    }
 
-    emailjs.sendForm('service_md10xcf', 'template_d9ggpft', form.current, {
-        publicKey: 'Myn4rxHZv49-fDM_a',
-      })
+    emailjs.sendForm(service, template, form.current, Public)
       .then(
         () => {
-            alert('Thank you! Your message has been sent successfully. I will get back to you as soon as possible.');
+          alert("✅ Your message was sent successfully!");
+          form.current.reset(); // optional: clear the form
         },
         (error) => {
-          alert('FAILED...', error.text);
-
-        },
+          alert("❌ Failed to send message. Please try again later.");
+          console.error("EmailJS Error:", error);
+        }
       );
-  }; 
+  };
 
   return (
     <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">

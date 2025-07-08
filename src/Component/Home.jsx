@@ -47,7 +47,7 @@ const Home = () => {
               </div>
 
 
-             <button className='bg-blue-600 w-30 h-10 text-white text-20'>Contact</button>
+             <Link to="/contact"><button className='bg-blue-600 w-30 h-10 text-white text-20 cursor-pointer'>Contact</button></Link>
 
 
 
